@@ -1,8 +1,6 @@
-package com.hipravin.javapuzzle.puzzle0;
+package com.hipravin.javapuzzle.puzzle0double;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class Puzzle0TaskTest {
 

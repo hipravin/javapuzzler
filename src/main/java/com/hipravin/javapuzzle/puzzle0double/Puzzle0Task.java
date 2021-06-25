@@ -1,4 +1,4 @@
-package com.hipravin.javapuzzle.puzzle0;
+package com.hipravin.javapuzzle.puzzle0double;
 
 import com.hipravin.javapuzzle.PuzzleAssert;
 
