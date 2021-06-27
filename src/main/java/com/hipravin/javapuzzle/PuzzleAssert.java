@@ -9,4 +9,10 @@ public abstract class PuzzleAssert {
             throw new AssertFailedException();
         }
     }
+
+    public static void assertFalse(boolean condition) {
+        if(condition) {
+            throw new AssertFailedException();
+        }
+    }
 }

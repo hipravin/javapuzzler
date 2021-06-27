@@ -11,4 +11,5 @@ public class Puzzle3 {
     }
 
     //add one symbol to program to make it work
+    //solution: add &
 }
