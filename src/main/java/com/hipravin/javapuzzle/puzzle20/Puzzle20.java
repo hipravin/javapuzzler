@@ -1,10 +1,10 @@
-package com.hipravin.javapuzzle.puzzle19;
+package com.hipravin.javapuzzle.puzzle20;
 
 import com.hipravin.javapuzzle.PuzzleAssert;
 
 import java.util.stream.Stream;
 
-public class Puzzle19 {
+public class Puzzle20 {
 
 
     public static void main(String[] args) {
