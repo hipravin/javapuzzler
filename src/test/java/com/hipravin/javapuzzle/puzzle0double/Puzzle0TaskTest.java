@@ -9,7 +9,7 @@ class Puzzle0TaskTest {
         Puzzle0Task puzzle0Task = new Puzzle0Task();
 
         for (int i = -2000; i < 1000; i++) {
-             if(puzzle0Task.checkNumber(i)) {
+             if(Puzzle0Task.test(i)) {
                  System.out.println(i);
              }
 

@@ -2,14 +2,21 @@ package com.hipravin.javapuzzle.puzzle2;
 
 import com.hipravin.javapuzzle.PuzzleAssert;
 
+import java.util.Scanner;
+
 public class Puzzle2 {
     public static void main(String[] args) {
-        int i = 1000000000 ;
+        Scanner sc = new Scanner(System.in);
+        String input = sc.next();
 
-        PuzzleAssert.assertTrue(checkNumber(i));
+        boolean passed = test(Integer.parseInt(input));
+
+        System.out.println(
+                passed ? "passed" : "failed");
     }
 
-    public static boolean checkNumber(int i) {
+    public static boolean test(int i) {
+        System.out.println("i*i: " + i * i);
         return i != 0 && i * i == 0;
     }
 

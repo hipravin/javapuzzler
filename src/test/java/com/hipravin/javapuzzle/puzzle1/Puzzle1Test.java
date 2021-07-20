@@ -9,7 +9,7 @@ class Puzzle1Test {
     @Test
     void testMin() {
         for (int i = 0; i < 10000; i++) {
-            if(Puzzle1.checkNumber(i)) {
+            if(Puzzle1.test(i)) {
                 System.out.println(i);
             }
 

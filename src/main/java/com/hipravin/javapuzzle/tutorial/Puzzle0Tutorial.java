@@ -7,9 +7,11 @@ public class Puzzle0Tutorial {
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
 
+        System.out.println("input: " + input);
         boolean passed = test(input);
 
-        System.out.println(passed ? "passed" : "failed");
+        System.out.println(
+                passed ? "passed" : "failed");
     }
 
     static boolean test(String s) {
